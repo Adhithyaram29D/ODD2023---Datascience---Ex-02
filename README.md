@@ -1,3 +1,4 @@
+## Ex2 Outlier Dectection and Removal
 You are given bhp.csv which contains property prices in the city of banglore, India. You need to examine price_per_sqft column and do following,
 
 (1) Remove outliers using IQR
@@ -109,3 +110,5 @@ sns.boxplot(y='weight',data=weight_new)
 ![Screenshot 2023-09-12 203851](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/e9af5e06-3959-4de0-b90c-90d35c4f9988)
 ![Screenshot 2023-09-12 204004](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/09278815-72d8-4d1a-9327-ed7433b6a0c6)
 ![Screenshot 2023-09-12 204016](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/a0bf353a-29c3-4cfd-9831-9ee7c2cfb3fb)
+## Result:
+Hence the given set of data is read and the outliers are removed using the IQR method and Zscore method.
