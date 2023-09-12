@@ -1,6 +1,5 @@
 # Ex2 Outlier Dectection and Removal
 You are given bhp.csv which contains property prices in the city of banglore, India. You need to examine price_per_sqft column and do following,
-
 (1) Remove outliers using IQR
 
 (2) After removing outliers in step 1, you get a new dataframe.
@@ -22,9 +21,7 @@ An Outlier is an observation in a given dataset that lies far from the rest of t
 - Step3: Detect the Outliers using IQR method and Z score.
 - Step4: Remove the outliers.
 - Step5: Plot the datas using Box Plot.
-
 ## Code:
-
 ## bhp.csv:
 ```
 import pandas as pd
@@ -58,7 +55,6 @@ new2=df[(z<3)]
 #AFTER REMOVING OUTLIER using Zscore method
 sns.boxplot(y="price_per_sqft",data=new2)
 ```
-
 ## height_weight.csv:
 ```
 import pandas as pd
@@ -94,16 +90,17 @@ weight_new=df[((df['weight']>=weight_low)&(df['weight']<=weight_high))]
 #AFTER REMOVING OUTLIER in WEIGHT
 sns.boxplot(y='weight',data=weight_new)
 ```
-
 ## Output:
-## bhp.csv:
+bhp.csv:
+
 ![Screenshot 2023-09-12 203209](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/6ceda7de-a24a-4bca-9125-b0ffa6c424e3)
 ![Screenshot 2023-09-12 203304](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/42e39f34-096e-422a-8cbc-b8ab67cdd20e)
 ![Screenshot 2023-09-12 203447](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/b1cf14e9-5c26-4e0e-911e-cc3884273f7d)
 ![Screenshot 2023-09-12 203500](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/0da07f50-7e81-4d42-85ae-f0c2f054a688)
 ![Screenshot 2023-09-12 203520](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/51d85889-7140-4824-93c4-04a03e62baf6)
 
-## height_weight.csv:
+height_weight.csv:
+
 ![Screenshot 2023-09-12 203824](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/6b1bb20a-b99f-45ff-9467-95e0cbcc6b82)
 ![Screenshot 2023-09-12 203832](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/ddd72db7-a5e0-4f2b-9c99-d8414bb6b67a)
 ![Screenshot 2023-09-12 203842](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/8482c9fe-2a51-432d-98e2-d6e63220681d)
