@@ -24,7 +24,7 @@ An Outlier is an observation in a given dataset that lies far from the rest of t
 
 ## Code:
 
- bhp.csv:
+## bhp.csv:
 ```
 import pandas as pd
 import seaborn as sns
@@ -58,7 +58,7 @@ new2=df[(z<3)]
 sns.boxplot(y="price_per_sqft",data=new2)
 ```
 
-height_weight.csv:
+## height_weight.csv:
 ```
 import pandas as pd
 import seaborn as sns
@@ -95,14 +95,14 @@ sns.boxplot(y='weight',data=weight_new)
 ```
 
 ## Output:
-bhp.csv:
+## bhp.csv:
 ![Screenshot 2023-09-12 203209](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/6ceda7de-a24a-4bca-9125-b0ffa6c424e3)
 ![Screenshot 2023-09-12 203304](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/42e39f34-096e-422a-8cbc-b8ab67cdd20e)
 ![Screenshot 2023-09-12 203447](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/b1cf14e9-5c26-4e0e-911e-cc3884273f7d)
 ![Screenshot 2023-09-12 203500](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/0da07f50-7e81-4d42-85ae-f0c2f054a688)
 ![Screenshot 2023-09-12 203520](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/51d85889-7140-4824-93c4-04a03e62baf6)
 
-height_weight.csv:
+## height_weight.csv:
 ![Screenshot 2023-09-12 203824](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/6b1bb20a-b99f-45ff-9467-95e0cbcc6b82)
 ![Screenshot 2023-09-12 203832](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/ddd72db7-a5e0-4f2b-9c99-d8414bb6b67a)
 ![Screenshot 2023-09-12 203842](https://github.com/Adhithyaram29D/ODD2023---Datascience---Ex-02/assets/119393540/8482c9fe-2a51-432d-98e2-d6e63220681d)
